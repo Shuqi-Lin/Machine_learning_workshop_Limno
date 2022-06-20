@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 #%% Getting the inputs 
-inp = pd.read_csv("70001.csv",header=0,index_col=0)
+inp = pd.read_csv("pca.csv",header=0,index_col=0)
 samples = inp[1:].values #TO remove NaN value in the first row
 #%% Scale the parameters to the same limit
 scaler = StandardScaler()                 #Create the scaler
