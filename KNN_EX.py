@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, MinMaxScaler  
 
 #%%Read the inputs
-df = pd.read_csv('Fish.csv')
+df = pd.read_csv('knn.csv')
 #%% To visualize the first rows of the dataset
 df.head()
 df.info()
